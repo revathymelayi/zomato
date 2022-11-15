@@ -1,0 +1,339 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+.main{
+    width:100%;
+     height: 375px;
+    background-image:url("images/zomato-background.webp")
+    
+}
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    cursor: pointer;
+    align-items: center;
+    margin-top: 10px;
+    margin: 10px 20px;
+    
+}
+.get-app{
+    margin-left: 90px;
+    font-size: 14px;
+    margin-top:20px;
+    
+}
+.container nav
+{
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+header .container
+{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.contents-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 6px;
+}
+h1{
+
+    color: white;
+    font-size: 3.6rem;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    -webkit-tap-highlight-color: transparent;
+
+
+
+}
+.search-container
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-body
+{
+  margin-top: 40px;  
+}
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* height: 100vh; */
+    margin-top: 10px;
+    padding: 30px;
+}
+.image-container{
+    width: 100%;
+    height: 160px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+    overflow: hidden;
+     border-radius: 10 px;
+}
+.card-container{
+    width: 359px;
+    height: 250px;
+    border-radius: 13px;
+    cursor: pointer;
+    border: 1px solid rgb(232, 232, 232);
+}
+.title
+{
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0px;
+    margin: 20px;;
+}
+.subtitle
+{
+    
+    text-align: left;
+    color: rgb(79, 79, 79);
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 20px;
+}
+
+
+    
+
+.card-container p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: rgb(54, 54, 54);
+}
+
+.headline h2{
+    color:  rgb(54, 54, 54);
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 200;
+    
+
+}
+h6{
+    
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.body-part
+{
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+
+   
+    
+
+
+
+
+
+.section-three
+{
+    padding: 47px;
+}
+.main{
+    padding: 20px;
+}
+.category-boxes
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh; 
+}
+
+
+
+.box-container {
+    position: relative;
+    font-family: Arial;
+  }
+  .box-container img{
+    width: 267px;
+    height:350px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .text-block {
+    position:absolute;
+    bottom: 10px;
+    right: 60px;
+    
+    color: white;
+    padding-left: 4px;
+    padding-right: 35px;
+  }
+  
+  
+  .localities-block
+  {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 30px;
+    grid-template-rows: 100px;
+  }
+  .localities-single
+  {
+    border-radius: 10px;
+  }
+  .localities-heading
+  {
+    margin-left: 56px;
+    text-align: center;
+    display: flex;
+    
+    color: rgb(54, 54, 54);
+    font-size: 41px;
+  }
+
+  
+  .localities-single h5{
+    font-size: 21px;
+    font-weight: 50;
+    
+  }
+  .section-six
+  {
+    display: flex;
+    margin: 90px 0;
+    padding:40px 0;
+    justify-content: center;
+    background-color: rgb(255, 248, 248);
+  }
+  .flex{
+    display:flex;
+  }
+  .contact{
+    width: 760px;
+    overflow: hidden;
+  }
+  .contact img{
+    width: 250px;
+    height: 300 px;
+    padding-right: 40px;
+  }
+  .adress
+  {
+    width: 470px;
+    margin-top: 20px;
+    padding-left: 10px;
+
+
+  }
+  .adress p{
+    padding-bottom:10px;
+    font-size:0.95rem;
+    color:rgb(92,91,91);
+  }
+  .adress h2{
+    font-size:2.7rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgb(34,34,34);
+  }
+  .radio
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+  }
+  .radio-label
+  {
+    font-size: 1.1rem;
+    color: rgb(49,49,49);
+  }
+  .radio [type="radio"]
+  {
+    accent-color: rgb(255,92,92);
+  }
+  .email
+  {
+    position: relative;
+  }
+  .email input{
+    height:46px;
+    border-radius:5px;
+    width:270px;
+    border:1px solid rgb(184,183,183);
+    outline: rgb(255,92,92);
+    font-size: 1.3 rem;
+    padding: 15px;
+
+
+  }
+  .place
+  {
+    position: absolute;
+    font-size:1.3 rem;
+    left: 15px;
+    top:13px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .email button{
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid rgb(253,104,104);
+    background-color: rgb(253,104,104);
+    font-size:1.1rem;
+    margin-left: 6px;
+    color: white;
+
+  }
+  .download
+  {
+    font-size:0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: grey;
+  }
+  .app img{
+    width: 137px;
+    height: 40px;
+  }
+
+   
+
+
+
+
+    
+    
+    
+
+
